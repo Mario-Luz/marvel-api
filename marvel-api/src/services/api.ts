@@ -2,8 +2,8 @@ import axios from 'axios';
 import md5 from 'md5';
 
 const baseURL = 'http://gateway.marvel.com/v1/public/'
-const publicKey = '3eb46218d5bdcc49cdc3b9f6c2c1372c'
-const privateKey = 'd16a243d90ce6de2a8a6c2576c99d3fb5a14a958'
+const publicKey = 'INSIRA AQUI SUA CHAVE PUBLICA'
+const privateKey = 'INSIRA AQUI SUA CHAVE PRIVADA'
 const timestamp = Number (new Date());
 const hash =  md5(timestamp+privateKey+publicKey);
 
